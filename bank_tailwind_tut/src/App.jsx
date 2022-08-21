@@ -8,7 +8,15 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>NavBar</div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>Hero</div>
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>Hero</div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          Stats buisness Billing Card Detail Test Clients CTA Footer
+        </div>
+      </div>
     </div>
   );
 };
